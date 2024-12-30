@@ -1,0 +1,45 @@
+/* AdminSidebar.css */
+.admin-sidebar {
+    width: 250px;
+    height: 100vh; /* Full height */
+    background-color: 	#800080; /* Dark background */
+    color: white; /* White text */
+    padding: 20px;
+    position: fixed; /* Fixed sidebar */
+}
+
+/* .admin-sidebar h2 {
+    text-align: center;
+} */
+
+.admin-sidebar ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+.admin-sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.admin-sidebar ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center icons and text */
+}
+.admin-sidebar ul li button{
+    color: white; /* Link color */
+    border:none;
+    padding: 10px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center icons and text */
+}
+
+.admin-sidebar ul li a svg {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.admin-sidebar ul li a:hover {
+    background-color: #D8BFD8; /* Change background on hover */
+    border-radius: 4px; /* Rounded corners */
+}

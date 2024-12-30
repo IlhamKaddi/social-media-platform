@@ -1,0 +1,331 @@
+/* Form styles */
+
+.h2{
+    display:flex;
+    justify-content:center
+}
+.Flesh i{
+  font-size:30px;
+  margin-left:10px
+
+}
+.Flesh:hover{
+  cursor: pointer;
+}
+
+
+
+.home{
+  margin-left:70px
+}
+
+.iconH{
+  font-size:24px
+}
+.passer{
+  color:blue
+}
+.form-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border:1px solid #f4f4f4;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .client-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+    color: #555;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* font-size: 16px; */
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+
+
+  
+  /* --------------------------------------form2_style */
+  .inputForm2{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* font-size: 16px; */
+    color: #555;
+    
+  }
+
+.buttonForm2 {
+  /* font-weight: bold; */
+  width: 120px;
+  background-color :#FFC400;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  /* color: #FFFFFF; */
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonForm2:hover,
+.buttonForm2:focus {
+    background-color :#FDC409;
+}
+.add{
+  font-size:  15px
+}
+
+.quantity-input {
+  border:none;
+ 
+}
+  
+  /* -------------style Form3 */
+  .form3  {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border:1px solid #f4f4f4;
+    border-radius: 8px;
+    height:300px;
+    font-size: 1.4vw; 
+   
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+ 
+
+  .tableR {
+    width: 100%;
+    border-collapse: collapse; 
+   
+    
+}
+
+.tableR th, .tableR td {
+    border: 1px solid #ccc; 
+    padding: 12px;
+    text-align: left; 
+    
+}
+
+.tableR th {
+    border:none;
+    background-color: #C8C8C8;
+    color: black;
+   
+}
+.edit{
+  color:blue
+  }
+  .edit:hover,
+  .edit:focus {
+    color: darkblue;
+    cursor: pointer; 
+  }
+ 
+  .edit i{
+    font-size: 2vw; 
+  
+  
+    }
+
+  .delete{
+    
+  color:red
+  }
+  .delete:hover,
+  .delete:focus {
+    color:darkred;
+    cursor: pointer; 
+  }
+  .delete i{
+  
+    font-size: 2vw; 
+
+  }
+
+  .spaceIcons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px
+  }
+  
+ 
+/* style de table row_____________________ */
+
+
+.cell-1 {
+    background-color: #FFC400; 
+
+}
+
+.cell-2 {
+    background-color: #FFE066; 
+
+}
+
+.cell-3 {
+    background-color: #FFEB99; 
+
+}
+
+.cell-4 {
+    background-color: #FFF3CC; 
+    
+}
+
+
+.table3{
+  width:300px;
+  float:right;
+  margin-right:80px;
+  
+  
+}
+.cell-1, .cell-2, .cell-3, .cell-4 {
+    
+    padding: 10px 8px;
+    
+  }
+
+
+
+
+.buttonV{
+  border-radius:7px;
+    width:200px;
+    background-color: white;
+    border: 2px solid #FFC400 ;
+    color: #FFC400 ;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 90px;
+   
+   
+ 
+}
+.buttonV:hover{
+  background-color: #FFC400;
+  color:white;
+  
+}
+
+.V-icon{
+  font-size: 24px
+   
+} 
+ /* form3-------------------- */
+.buttonForm3{
+  max-width:250px;
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+  border-radius:7px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.buttonForm3:hover{
+  background-color: blue;
+  color:white;
+}
+
+.download-icon{
+    font-size: 24px;
+   
+}
+.buttonC{
+  display: flex;
+  gap: 10px; 
+}
+
+/* ----------------------outlinefocus */
+input:focus {
+  outline: none;
+  border:1px solid #FFC400 ;
+  box-shadow: #FFC400 0px 0px 3px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  /* Removes default outline */
+}
+
+/* ----------mediQ */
+@media (min-width: 470px) and (max-width: 1333px) {
+  .client-form {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .tableR {
+      width: 100%;
+      table-layout: fixed; 
+  }
+
+  .buttonV, .buttonForm3 {
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      width: 100%; 
+      max-width: 250px;
+      margin: 10x 0;
+      /* Ajout de marge pour espacer les boutons verticalement */
+  }
+  /* Ajustements pour les petits écrans */
+  @media (max-width: 470px) {
+      .buttonV, .buttonForm3 {
+          width: 90%;
+          height:50%;
+          
+
+      }
+      
+  }
+
+  /* Ajustements pour les écrans moyens */
+  @media (min-width: 471px) and (max-width: 768px) {
+      .buttonV, .buttonForm3 {
+          width: 85%; 
+        
+      }
+  }
+}
+
+
+
+

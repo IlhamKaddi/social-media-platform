@@ -1,0 +1,33 @@
+.file-container {
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.file-input {
+    margin-right: 10px;
+}
+
+.upload-button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.video-list {
+    margin-top: 20px;
+}
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.video-item {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ccc;
+}

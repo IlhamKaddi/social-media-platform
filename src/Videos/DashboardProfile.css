@@ -1,0 +1,67 @@
+.dashboard-container {
+    margin-left: 250px;
+    padding: 20px;
+ 
+}
+
+/* .dashboard-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} */
+.dashboard-content-card{
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: auto auto auto;
+   
+    padding: 20px;
+}
+
+.dashboard-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    display:flex;
+    justify-content:space-between;
+}
+
+.card-img {
+    width: 15vh;
+    height: 15vh;
+    margin-left:5px
+    /* display:flex;
+  justify-content: center; */
+}
+.img-span{
+    display:flex;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+.card-title {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.profiles-number{
+    font-size:44px;
+    color:#800080;
+}
+
+.chart{
+    margin-left: 300px;
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

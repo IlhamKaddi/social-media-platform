@@ -1,0 +1,39 @@
+.profile-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #800080; 
+    /* background-color: red;  */
+    color: white; 
+    padding: 20px;
+    position: fixed;
+}
+.profile-sidebar ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.profile-sidebar ul li {
+    margin: 20px 0;
+}
+
+.profile-sidebar ul li a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+}
+.profile-sidebar ul li button{
+    color: white; 
+    border:none;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+}
+.profile-sidebar ul li a svg {
+    margin-right: 10px; 
+}
+.profile-sidebar ul li a:hover {
+    background-color: #D8BFD8; 
+    border-radius: 4px;
+}
